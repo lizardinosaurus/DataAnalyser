@@ -1,11 +1,10 @@
 # DataAnalyser
 
-
 ## Description
 
 ### overview
 
-This project aims 
+This project aims to be flexibale and allow users to work on any dataset with a variable amount of rows and columns. The program is able to manipulate tables, plot graphs and make predictions using a linear regression model that is compatable with numbers as well as strings.
 
 
 ### how to use
@@ -23,7 +22,7 @@ For example the death rates table contains 'births or deaths', 'year', 'location
 #### Select specific rows
 Choose a table and select the columns that you want to meet certain conditions and enter a name for the new table. Continue and then enter the conditions for each of the columns selected, a new table will be created with only the rows that meet the selected conditions.
 
-For example you can get only the male totals from the powerlifting dataset by selecting column 'sex' and setting the value ti 'M'
+For example you can get only the male totals from the powerlifting dataset by selecting column 'sex' and setting the value to 'M'
 #### Plot scatter graph
 Select a table and select the x and y axis columns to plot a scatter graph. Leave the graph open and plot more axis values to plot different data sets on the same graph.
 #### plot normal
@@ -48,5 +47,4 @@ For example if A man and a women were both powelifters and wanted to compare the
 
 ### Installing and executing
 
-* The program runs from the CircuitBuilder.py file and requires the circuitdata.db file and the assets folder
-* The circuitdata.db file uploaded comes with an example circuit but if you need a new file you can create one by running Initialise.py
+* The program runs from the DataMain.py file and requires all of the python files in the repository as well as the rawdata.db file.
