@@ -18,6 +18,9 @@ class Main(tk.Frame):
         btn = tk.Button(self, text='Delete dateset', command=self.open_popupDelete)
         btn.pack()
 
+        btn = tk.Button(self, text='Clean null values from data (Do this before using the functions below)', command=self.open_popupRemoveNull)
+        btn.pack()
+
         btn = tk.Button(self, text='Condense dataset/ reomve unnesacery Columns', command=self.open_popupCondense)
         btn.pack()
 
@@ -28,9 +31,6 @@ class Main(tk.Frame):
         btn.pack()
 
         btn = tk.Button(self, text='Plot normal distribution', command=self.open_popupNormal)
-        btn.pack()
-
-        btn = tk.Button(self, text='Clean null values from data', command=self.open_popupRemoveNull)
         btn.pack()
 
         btn = tk.Button(self, text='Predict value with new data', command=self.open_popupPredict)
